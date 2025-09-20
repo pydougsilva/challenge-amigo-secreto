@@ -46,3 +46,27 @@ function atualizarListaAmigos() {
         listaAmigos.appendChild(li);
     }
 }
+// Função para sortear um amigo secreto
+function sortearAmigo() {
+    // 1. Validar que há amigos disponíveis e que a quantidade é maior que 3
+    if (amigos.length === 0) {
+        alert('Não há amigos para sortear. Adicione alguns amigos primeiro!');
+        return;
+    }
+    
+    if (amigos.length <= 3) {
+        alert('É necessário ter pelo menos 4 amigos para realizar o sorteio!');
+        return;
+    }
+    
+    // 2. Gerar um índice aleatório
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    
+    // 3. Obter o nome sorteado e exibir no console
+    const amigoSorteado = amigos[indiceAleatorio];
+    console.log('Amigo sorteado:', amigoSorteado);
+    
+    // 4. Mostrar o resultado na página
+    const elementoResultado = document.getElementById('resultado');
+    elementoResultado.innerHTML = `<li>🎉 O amigo secreto é: <strong>${amigoSorteado}</strong>! 🎉</li>`;
+}                                                                    
