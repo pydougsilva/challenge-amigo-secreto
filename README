@@ -1,0 +1,72 @@
+# Jogo do Amigo Secreto
+
+![Apresentação do Jogo](./assets/apresentacao.gif)
+
+Um jogo interativo de amigo secreto desenvolvido em JavaScript, HTML e CSS que permite aos usuários adicionar amigos e realizar sorteios de forma justa e aleatória.
+
+## ✨ Funcionalidades
+
+- **Adição de Amigos**: Insira os nomes dos participantes do amigo secreto
+- **Validação de Entrada**: Sistema impede entradas vazias e nomes duplicados
+- **Sorteio Aleatório**: Algoritmo que garante um sorteio justo sem repetições
+- **Controle de Progresso**: Acompanhamento visual dos amigos já sorteados
+- **Reinício de Jogo**: Opção para recomeçar um novo jogo após término
+- **Interface Responsiva**: Design adaptável e amigável para o usuário
+
+## 🚀 Como Usar
+
+1. **Adicione os amigos**: Digite o nome de cada participante no campo de texto e clique em "Adicionar"
+2. **Realize o sorteio**: Após adicionar pelo menos 4 amigos, clique em "Sortear amigo"
+3. **Acompanhe o progresso**: A interface mostra quantos amigos já foram sorteados
+4. **Reinicie quando necessário**: Ao finalizar, você pode reiniciar para um novo jogo
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**: Estrutura semântica da aplicação
+- **CSS3**: Estilização com variáveis CSS e design responsivo
+- **JavaScript**: Lógica de programação e interatividade
+- **Google Fonts**: Fontes Merriweather e Inter para melhor tipografia
+
+## 📋 Pré-requisitos
+
+Navegador web moderno com suporte a:
+- JavaScript ES6+
+- CSS Variables
+- Flexbox layout
+
+## 🎯 Como Executar
+
+1. Faça o download ou clone dos arquivos do projeto
+2. Abra o arquivo `index.html` em seu navegador
+3. Comece a adicionar amigos e realizar sorteios!
+
+## 📁 Estrutura de Arquivos
+
+amigo-secreto/
+│
+├── index.html # Arquivo principal HTML
+├── style.css # Estilos CSS do projeto
+├── app.js # Lógica JavaScript do jogo
+├── assets/ # Pasta de recursos
+│ ├── amigo-secreto.png
+│ └── play_circle_outline.png
+├── apresentacao.gif # GIF demonstrativo
+└── tela-principal.png # Captura de tela
+
+
+## 🎨 Personalização
+
+O projeto utiliza variáveis CSS para fácil customização:
+
+```css
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    /* Adicione suas próprias cores aqui */
+}
+👨‍💻 Autor
+
+Desenvolvido por Douglas Fereira como parte de um projeto de prática em JavaScript no program Oracle One em parceria com Alura.
+
